@@ -1,0 +1,399 @@
+body{
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/*PÁGINA HOME*/
+
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;;
+    font-size: bolder;
+}
+
+#titulo-logo{
+    color: white;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#fundo-principal{
+    background-image: url('imagens/fundoHome.jpg');
+    background-size: 100% 100%;
+    height: 400px;
+    color: white;
+}
+
+#conteudo-linha1-principal{
+    display: flex;
+    align-items: center;
+    padding-top: 60px;
+    padding-left: 80px;
+}
+
+#linha {
+    width: 50px;
+    border-bottom: 5px solid rgb(11, 125, 255);
+}
+
+.linha1-principal{
+    margin-right: 15px;
+}
+
+#conteudo-tit-subtit{
+    padding-left: 80px;
+    width: 700px;
+}
+
+#btn-redirecionar{
+    padding: 10px;
+    background-color: rgb(11, 125, 255);
+    color: white;
+    border: 1px solid rgb(11, 125, 255);
+    border-radius: 10px;
+}
+
+.tipo-investimento{
+    width: 500px;
+    height: 250px;
+    text-align: center;
+    padding: 10px;
+    border: 2px solid rgb(187, 187, 187);
+    border-radius: 10px;
+    margin: 15px;
+}
+
+#bloco-renda-fixa{
+    margin-right: 20px;
+}
+
+.bloco-tipos{
+    margin: 20px;
+}
+
+#subtitulo-tipo-investimento{
+    text-align: center;
+}
+
+#guia2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px 0px 50px 0px;
+}
+
+#tits-guia2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 2px 2px 8px 8px rgba(128, 128, 128, 0.247);
+    width: 85%;
+}
+
+.tit-conteudo-guia2{
+    width: 160px;
+    height: 60px;
+    background-color: white;
+    border: 1px solid white;
+    text-align: center;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.tit-conteudo-guia2 > a{
+    text-decoration: none;
+    color: rgb(11, 125, 255);
+    font-weight: bolder;
+}
+
+.tit-conteudo-guia2>a:hover, .tit-conteudo-guia2:hover{
+    background-color: rgb(11, 125, 255);
+    border: 1px solid rgb(11, 125, 255);
+    color: white;
+    cursor: pointer;
+}
+
+#conteudo-guia2{
+    width: 90%;
+    margin: auto;
+}
+
+.linha-conteudo{
+    width: 100%;
+    border-bottom: 1px solid rgb(187, 187, 187);
+}
+
+.div-conteudo-guia2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-conteudo > img{
+    width: 350px;
+    height: 250px;
+    margin-left: 20px;
+}
+
+/* PAGINA SOBRE */
+#fundo-sobre-nos{
+    background-image: url('imagens/sobreNos.jpg');
+    background-size: 100% 130%;
+    height: 300px;
+    color: white;
+    padding-top: 100px;
+    padding-left: 100px;
+}
+
+#div-conteudo-sobre{
+    display: flex;
+    text-align: center;
+}
+
+.conteudo-sobre{
+    margin: 20px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 8px 8px rgba(0, 0, 0, 0.11);
+    padding: 10px;
+}
+
+/*----------------*/
+
+/* GUIA/MENU - Nav */
+.navbar{
+    padding: 0px;
+}
+.navbar-brand{
+    padding: 0px;
+}
+
+.container-fluid{
+    background-color: #212529;
+}
+
+.nav-item{
+    padding: 15px 5px;
+}
+
+.nav-item:hover{
+    cursor: pointer;
+}
+
+.nav-item > a{
+    color: rgb(187, 187, 187);
+}
+
+.nav-item > a:hover{
+    color: rgb(238, 238, 238);
+}
+
+.btn-sair{
+    font-weight: bolder;
+    background-color: red;
+    border-radius: 5px;
+    border: 1px solid red;
+    height: 30px;
+    width: 80px;
+}
+
+.link-sair{
+    color: white;
+    text-decoration: none;
+}
+
+.btn-sair:hover{
+    background-color: rgb(211, 0, 0);
+    border: 1px solid black;
+}
+
+/* PÁGINA GALERIA */
+
+#fundo-galeria{
+    background-image: url('imagens/galeria.jpg');
+    background-size: 100% 130%;
+    height: 300px;
+    color: #212529;
+    padding-top: 100px;
+    padding-left: 100px;
+}
+
+.linha-imagens{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 20px;
+    padding: 20px 0px;
+}
+
+.img-notas > img{
+    width: 400px;
+    height: 160px;
+    padding: 5px;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+#container-imagens{
+    background-color: #212529;
+    width: 100%;
+    height: 100%;
+}
+
+
+/*----------------------------------------*/
+
+/* ----- Pagina de Login -----*/
+
+.card-login {
+    /*Alinhamento Horizontal*/
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    width: 350px;
+    text-align: center;
+}
+/* Titulo Login */
+.card-header{
+    font-weight: bolder;
+}
+/* Inputs */
+.form-group{
+    padding: 5px;
+}
+
+#btnEnviar{
+    margin: 15px 0px;
+    font-weight: bolder;
+    font-size: 18px;
+    background-color: #0d6efd;
+    border: 0px;
+    color: #212529;
+}
+
+#btnEnviar:hover{
+    background-color: #0066ff;
+}
+
+#msg-cadastrar{
+    font-size: 14px;
+}
+
+#msg-erro{
+    font-size: 10px;
+    font-weight: bolder;
+    margin-bottom: -5px;
+}
+/*----------------------------*/
+
+
+/*----- PAGINA DE CONTATOS -----*/
+#pagina-contato{
+    background-color: white;
+    /*background-color: #212529;*/
+}
+
+#container-geral-contatos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #212529;
+    margin-top: 20px;
+}
+
+#linha1, #linha2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.blocos-linha1{
+    background-color: white;
+    border: 2px solid black;
+    width: 220px;
+    height: 210px;
+    margin: 10px;
+    display: table;
+}
+
+.conteudo-bloco{
+    display:table-cell;
+    vertical-align: middle;
+}
+
+#bloco-endereco{
+    background-color: white;
+    border: 2px solid black;
+    width: 460px;
+    height: 210px;
+    margin: 10px;
+    display: table;
+}
+
+.img-icons-contato{
+    width: 60px;
+    height: 60px;
+}
+
+.titulo-blocos-contato{
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#coluna2{
+    background-color: #1698D6;
+    text-align: center;
+}
+
+#div-form-contato{
+    width: 500px;
+    height: 470px;
+    margin-top: 10px;
+}
+
+#coluna1, #coluna2{
+    width: 500px;
+    height: 465px;
+    position: relative;
+}
+
+.input-form-contato{
+    width: 360px;
+    height: 30px;
+    font-size: 14px;
+    margin-bottom: 15px;
+    padding-left: 10px;
+    border: none;
+}
+
+#titulo-coluna2-form{
+    font-size: 50px;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 20px;
+}
+
+#obs-form{
+    height: 100px;
+    padding-top: 10px;
+    border: none;
+}
+
+#btn-form-contato{
+    width: 85px;
+    height: 35px;
+    font-weight: bolder;
+    border: 1px solid white;
+    background-color: transparent;
+    color: #212529;
+}
+
+#btn-form-contato:hover{
+    background-color: #0094d8;
+}
